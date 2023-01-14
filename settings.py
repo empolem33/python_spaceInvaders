@@ -8,3 +8,5 @@ class Settings:
         self.screen_height = 700
         self.bg = pygame.transform.scale(pygame.image.load("assets/background-black.png"), (self.screen_width, self.screen_height))
 
+        # ship settings
+        self.ship_speed = 1.5
